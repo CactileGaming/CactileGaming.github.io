@@ -1,0 +1,53 @@
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	color: #32CD32;
+	font-size: 32px;
+}
+
+p {
+	padding: 10px;
+	display: block;
+	background-color: white;
+	font-family: 'Hind', sans-serif;
+	color: black;
+	margin-top: 100px;
+	border-radius: 3px;
+}
+
+/* Background pattern from subtlepatterns.com */
+body {
+	background-image: url("background.png");
+}
+
+ul {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a:hover {
+	color: #32CD32;
+}
+
+li a {
+	font-size: 20px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a {
+	font-family: 'Fjalla One', sans-serif;
+}
