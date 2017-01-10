@@ -12,11 +12,19 @@ p {
 	color: black;
 	margin-top: 100px;
 	border-radius: 3px;
+	text-align: center;
+}
+
+img {
+	display: block;
+    margin: auto;
+	height: 35%;
+	width: 35%;
 }
 
 /* Background pattern from subtlepatterns.com */
 body {
-	background-image: url("Background.png");
+	background-image: url("Background.PNG");
 }
 
 ul {
